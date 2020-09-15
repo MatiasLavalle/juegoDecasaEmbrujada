@@ -1,0 +1,109 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(34, 73, 34);
+}
+
+header{
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(45, 133, 45);
+    height: 60px;
+    color: white;
+    font-size: 35px;
+    display: flex; justify-content: start;align-items: center;
+}
+
+p{
+    display: flex; justify-content: center; align-items: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(89, 211, 110);
+
+}
+
+h1{
+    display: flex; justify-content: center; align-items: center;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    text-shadow: 3px 3px rgb(89, 211, 110);
+}
+
+.section1{
+    display: block;justify-content: center;align-items: center;
+}
+
+.section2{
+    display: flex; justify-content: center; align-items: center;
+    margin-bottom: 25px;
+}
+
+.caja1{
+    height: 500px;
+    display: block;justify-content: center; align-items: center;
+}
+
+.caja2{
+    display: flex;justify-content: center;
+}
+
+.puerta{
+    height: 350px;
+    width: 300px;
+}
+
+footer{
+    background-color: rgb(45, 133, 45);
+    height: 80px;
+    margin: 0;
+    display: flex;justify-content:flex-end;align-items: center;
+}
+
+.cajaboton{
+    margin-right:80px ;
+    background-color: black;
+    transition-property: all;
+    transition-duration: 2s;
+    top:0px;
+
+}
+
+.cajaboton:hover{
+    top:-500px;
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    background-color: rgba(255, 115, 0, 0.726);
+    box-shadow: 0px 7px 1px rgb(83, 38, 0) ;
+    position: relative;
+    display: flex;justify-content: center;align-items: center;
+}
+
+#botonsito{
+    background-color: black;
+}
+
+a{
+    color: white;
+    font-size: 20px;
+
+}
+
+.boton{
+    height: 50px;
+    width: 120px;
+    margin: 10px;
+    background-color: rgba(255, 115, 0, 0.726);
+    box-shadow: 0px 7px 1px rgb(83, 38, 0) ;
+    position: relative;
+    transition-property:top,box-shadow;
+    transition-duration: 0.2s;
+    border-color: rgba(185, 74, 0, 0.979);
+    top:0px;
+}
+
+.boton:hover{
+    top:3px;  
+    box-shadow: 0px 3px 1px rgb(83, 38, 0);
+}
+
